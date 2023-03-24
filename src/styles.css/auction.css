@@ -1,0 +1,164 @@
+tr td{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+h5{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 700;
+    gap: 1rem;
+    margin-left: 10px;
+    color: #616161;
+
+}
+button{
+    width: 230px;
+    height: 70px;
+    background: #3341C1;
+    border-radius: 3.68216px;
+    color: #F7F4F4;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.header1{
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+    /* border: 2px dashed black; */
+}
+.slideshow{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    /* border: 2px dashed black; */
+}
+.div1{
+    background-image: url('../images/Rectangle247.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.div2{
+    background-image: url('../images/Rectangle245.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.div3{
+    background-image: url('../images/Rectangle246.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.topbids h4{
+    font-size: 2rem;
+    line-height: 200%;
+    font-weight: 700px;
+    margin: 30px;
+    /* border: 1px solid black; */
+}
+.flexdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.flex{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: 1px dashed black; */
+}
+.flex1{
+    width: 45%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+.flex2{
+    width: 45%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+.outofbox{
+    width: 100%;
+    height: 450px;
+    border: 2px solid #e5e7eb;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.fallingapart{
+    width: 100%;
+    height: 450px;
+    border: 2px solid #e5e7eb;
+    border-radius: 15px;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.heart{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.img1{
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    background-image: url('../images/photo-1622737133809-d95047b9e673.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    background-image: url('../images/photo-1438012940875-4bf705025a8a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.outofbox h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fallingapart h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.bidcontainer{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F7F4F4;
+    border-radius: 10px;
+}

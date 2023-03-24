@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Auction from "./pages/auction";
+import Footer from "./pages/footer";
+import Homepage from "./pages/homepage";
+import Newsletter from "./pages/newsletter";
+import Header from "./pages/header";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+
 
 function App() {
   return (
+    <main>
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header />
+    <Routes>
+    <Route path="/" element={<Homepage />}/>
+    <Route path="/Auction" element={<Auction />}/>
+    </Routes>
+
+    <Newsletter />
+    <Footer />
     </div>
+    </BrowserRouter>
+    </main>
   );
 }
 
